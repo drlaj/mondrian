@@ -1,0 +1,12 @@
+{
+  "jspm": {
+    "directories": {
+      "lib": "lib",
+      "packages": "jspm_packages"
+    },
+    "dependencies": {
+      "es6-shim": "npm:es6-shim@^0.25.3",
+      "jquery": "github:components/jquery@^2.1.3"
+    }
+  }
+}
