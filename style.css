@@ -3,22 +3,22 @@ body {
 }
 
 #mondrian {
-    width: 504px;
-    height: 504px;
+    border: 3px solid #000;
+    cursor: normal;
+    height: 400px;
+    left: 50%;
     margin: auto;
     position: fixed;
     top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid #000;
-    cursor: normal;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 400px;
 }
 
 .block {
     position: absolute;
-    border-color: "#000000";
-    border-style: solid;
-    border-width: 3;
+    border: 3px solid #000;
 }
 
 *, *:before, *:after{
